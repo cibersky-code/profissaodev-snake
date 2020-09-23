@@ -1,7 +1,12 @@
-package snake;
+package br.com.softblue.snake.scene;
 
 import java.awt.Dimension;
 import java.awt.Point;
+
+import br.com.softblue.snake.core.Direction;
+import br.com.softblue.snake.graphics.Rect;
+import br.com.softblue.snake.graphics.Shape;
+import br.com.softblue.snake.util.Constants;
 
 public class Snake extends Shape {
 	

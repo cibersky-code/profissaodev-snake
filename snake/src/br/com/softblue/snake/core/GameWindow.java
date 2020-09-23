@@ -1,8 +1,13 @@
-package snake;
+package br.com.softblue.snake.core;
 
 import java.awt.Graphics;
 
 import javax.swing.JFrame;
+
+import br.com.softblue.snake.graphics.Renderer;
+import br.com.softblue.snake.scene.Background;
+import br.com.softblue.snake.scene.Snake;
+import br.com.softblue.snake.util.Constants;
 
 @SuppressWarnings("serial")
 public class GameWindow extends JFrame {
